@@ -1,0 +1,10 @@
+# Abaikan file upload (jangan commit gambar tamu), tapi pertahankan struktur folder
+public/uploads/*/*
+!public/uploads/*/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

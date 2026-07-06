@@ -1,0 +1,9 @@
+# Arahkan semua request ke index.php (kecuali file/folder nyata seperti gambar)
+RewriteEngine On
+
+# Sesuaikan jika folder proyek berbeda. Untuk http://localhost/grandinap/ gunakan baris ini:
+RewriteBase /grandinap/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
