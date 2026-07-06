@@ -15,7 +15,7 @@ define('DB_PASS', '');         // default XAMPP: kosong
 define('BASEURL', 'http://localhost/grandinap/');
 define('APPNAME', 'GrandInap');
 
-// Folder upload (relatif terhadap root proyek)
+// Folder upload (relatif terhadap root proyek).
 define('UPLOAD_PATH', __DIR__ . '/../public/uploads/');
 define('UPLOAD_URL', BASEURL . 'public/uploads/');
 
