@@ -23,7 +23,7 @@ define('UPLOAD_URL', BASEURL . 'public/uploads/');
 define('RAJAONGKIR_KEY', 'Er4rPft4dbf09c6d85a35678uXsOL9rn');
 define('RAJAONGKIR_BASEURL', 'https://rajaongkir.komerce.id/api/v1');
 
-// Tampilkan error saat development (matikan saat produksi)
+// Tampilkan error saat development (matikan saat produksi):
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 date_default_timezone_set('Asia/Jakarta');
