@@ -1,6 +1,5 @@
 -- ============================================================
 --  GrandInap - Skema Database (MySQL)
---  Import file ini via phpMyAdmin atau:  mysql -u root -p < grandinap.sql
 -- ============================================================
 
 CREATE DATABASE IF NOT EXISTS grandinap CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
