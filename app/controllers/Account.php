@@ -3,7 +3,7 @@ class Account extends Controller
 {
     public function __construct() { requireLogin(); }
 
-    // Dashboard pelanggan: daftar reservasi
+    // Dashboard pelanggan daftar reservasi
     public function index()
     {
         $resModel    = $this->model('Reservation');
