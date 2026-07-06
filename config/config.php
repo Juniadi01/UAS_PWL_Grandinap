@@ -20,7 +20,6 @@ define('UPLOAD_PATH', __DIR__ . '/../public/uploads/');
 define('UPLOAD_URL', BASEURL . 'public/uploads/');
 
 // ---- RajaOngkir (Integrasi API ongkos kirim) ----
-// api...
 define('RAJAONGKIR_KEY', 'Er4rPft4dbf09c6d85a35678uXsOL9rn');
 define('RAJAONGKIR_BASEURL', 'https://rajaongkir.komerce.id/api/v1');
 
