@@ -9,7 +9,7 @@ class Hotel
         return $this->db->query('SELECT * FROM hotels ORDER BY name ASC')->resultSet();
     }
 
-    // Daftar hotel beserta jumlah kamar, harga termurah, dan rata-rata rating (halaman publik)
+    // Daftar hotel beserta jumlah kamar, harga termurah, dan rata-rata rating (halaman publik).
     public function allWithStats($filters = [])
     {
         $sql = 'SELECT h.*,
